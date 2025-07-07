@@ -1,0 +1,12 @@
+voiceLayer:
+    sendPartials: false
+    apiUrl: "wss://luminous-stt.hypercliq.com" # WSS server with TTS and STT capabilities
+    apiKey: "EMPTY"
+sandbox:
+    ifcPath: "data/ifc/AC20-FZK-Haus.ifc" # "data/ifc/Technical_school-current_m.ifc"
+    ipAddress: "127.0.0.1" # IP address of the sandbox, port will be 9999
+    port: 9999
+helperLLM:
+    model: "Qwen/Qwen2.5-7B-Instruct" # "gemini-1.5-flash"
+    apiUrl: "http://localhost:8008/v1"
+    apiKey: "EMPTY"

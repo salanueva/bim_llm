@@ -1,0 +1,61 @@
+ID	Category	Building	Position	Rotation	Prior state	Type(s)	Other premises	Query
+1	Instructions	House	[355.2, 511.2, 92.7]	[360.0, 36.3, 0]	-	Visibility	2 doors	Hide the left door.
+3	Instructions	House	[542.2, 288.7, 120.5]	[359.6, 265.6, 0]	-	Visibility	2 doors	Hide the nearest door.
+5	Instructions	House	[418.7, 696.6, 115.7]	[355.0, 289.4, 0]	-	Visibility	3 doors	Hide the rightmost door.
+7	Instructions	House	[848.8, 1618.0, 256.2]	[11.0, 248.8, 0]	l.set_object_visibility('0eaC0nL3XAOfFxRXK_2iAr', False)	Visibility, Removal	2+ beams (1 hidden)	Show the hidden beam and remove the others.
+9	Instructions	House	[436.0, 334.4, 96.2]	[1.3, 298.9, 0]	l.set_object_visibility('2jTRqchjf7oB0yhQ6462T0', False)\nl.set_object_visibility('2qiPPF3FrF8OIqfrKiSUqm', False)	Visibility, Transformation	2 hidden doors	Show the hidden right door and make it half its original size.
+11	Instructions	House	[89.5, 908.4, 162.6]	[356.4, 321.9, 0]	-	Removal	1 stair	Remove the stair.
+13	Instructions	House	[222.4, 904.5, 145.8]	[351.9, 124.3, 0]	-	Removal	2+ walls	Remove all walls that are in front of me.
+15	Instructions	House	[645.8, 609.8, 136.9]	[42.7, 351.0, 0]	-	Removal	1 slab	Delete the slab.
+17	Instructions	House	[636.1, 1408.4, 341.1]	[1.1, 270.2, 0]	-	Removal, Coloring	2 walls (1 behind 1)	Remove the wall in front of me and paint the one behind it red.
+19	Instructions	House	[479.7, -214.2, 98.5]	[6.0, 87.7, 0]	-	Removal, Camera	1 door	Delete the door in front of me and step inside.
+21	Instructions	House	[80.4, 756.6, 188.3]	[337.6, 83.5, 0]	-	Coloring	2+ windows	Set the color of the nearest window to yellow.
+23	Instructions	House	[-115.7, 1466.3, 159.8]	[0.1, 308.0, 0]	-	Coloring	2+ walls	Make the leftmost wall purple.
+25	Instructions	House	[-475.4, 1263.8, 160.6]	[0.1, 320.0, 0]	-	Coloring	1 door, 1+ walls	Paint the door pink and its surrounding wall yellow.
+27	Instructions	House	[74.1, 886.0, 134.6]	[3.5, 325.0, 0]	-	Coloring, Transformation	1 stair	Make the stairs orange and rotate them 180 degrees.
+29	Instructions	House	[137.1, 637.3, 141.4]	[351.6, 304.1, 0]	l.set_object_color('3rPX_Juz59peXXY6wDJl18', 150, 75, 0)	Coloring, Visibility	2+ walls (1 brown)	Paint the brown wall white and hide the rest of the walls.
+31	Instructions	House	[74.1, 886.0, 134.6]	[3.5, 325.0, 0]	-	Transformation	1 stair	Rotate the stairs clockwise 90 degrees in the vertical axis.
+33	Instructions	House	[-529.9, 1649.5, 304.2]	[351.6, 313.7, 0]	-	Transformation	(outside)	Scale the entire building up by a factor of 2.
+35	Instructions	House	[423.4, 700.9, 134.8]	[351.6, 298.4, 0]	-	Transformation	2+ doors	Put all doors in sight 3 meters in front of me.
+37	Instructions	House	[400.9, 568.1, 139.4]	[0.3, 176.7, 0]	-	Transformation, Camera	1 door	Move the door 1 meter closer to me and move the camera to its previous position.
+39	Instructions	House	[77.3, 862.7, 140.8]	[28.8, 351.6, 0]	-	Transformation, Removal	1 stair, 1 roof	Make the stairs three times higher and remove the roof.
+41	Instructions	House	[343.0, 910.1, 175.8]	[353.5, 88.6, 0]	-	Camera	-	Move up 10 meters and look below.
+43	Instructions	House	[328.8, 701.7, 167.3]	[345.1, 328.5, 0]	-	Camera	3+ doors	Look at the rightmost door.
+45	Instructions	House	[165.5, 375.5, 380.8]	[359.7, 314.1, 0]	-	Camera	1 window	Position the camera so that the window is exactly one meter in front of me.
+47	Instructions	House	[614.1, 679.5, 387.3]	[352.1, 85.1, 0]	-	Camera, Visibility	1 wall	Look at the back and hide the wall found there.
+49	Instructions	House	[645.8, 609.8, 136.9]	[0.9, 317.4, 0]	-	Camera, Coloring	1 window	Look at the window and color the wall around it in white.
+51	Props	House	[517.9, 465.8, 395.1]	[353.0, 268.5, 0]	-	Addition	-	Insert an iridescent lamp in front of me.
+53	Props	House	[195.6, 918.8, 96.2]	[354.3, 88.7, 0]	-	Addition	-	Add three equidistant water bottles.
+55	Props	House	[771.7, 888.5, 439.5]	[343.5, 232.3, 0]	-	Addition	-	Insert two chairs in the middle of the room.
+57	Props	House	[266.9, 463.9, 193.8]	[343.3, 239.7, 0]	-	Addition	1 wall, 2 windows	Insert a lamp in the wall between the two windows.
+59	Props	House	[682.1, 884.5, 162.9]	[10.7, 262.4, 0]	-	Addition	1 wall	Load sunglasses on the floor touching the wall.
+2	Instructions	School	[-1843.2, 238.6, 1022.1]	[352.7, 150.1, 0]	-	Visibility	2+ walls	Hide all walls.
+4	Instructions	School	[2029.2, 2497.3, 797.0]	[14.0, 39.7, 0]	-	Visibility	2 windows	Hide only the windows in my field of view.
+6	Instructions	School	[2045.5, 1630.6, 827.8]	[2.3, 343.6, 0]	l.set_object_visibility('2UMN_OQKrAshZl3dHPuZ$p', False)\nl.set_object_visibility('2UMN_OQKrAshZl3dHPuZuz', False)	Visibility	2 hidden doors	Show the hidden left door.
+8	Instructions	School	[795.2, 255.5, 76.8]	[356.4, 252.8, 0]	-	Visibility, Coloring	2+ walls, 1 stair	Hide all stairs and make all walls green.
+10	Instructions	School	[2751.7, 982.5, 116.0]	[354.3, 312.1, 0]	l.set_object_visibility('0OCjL9Oi14tu4iiPw9P_OI', False)	Visibility, Camera	1 hidden window	Show the hidden window and move 2 meters towards it.
+12	Instructions	School	[-496.2, 661.2, 610.7]	[342.6, 291.2, 0]	-	Removal	2+ stairs	Remove all stairs in sight.
+14	Instructions	School	[2503.8, 1897.7, 901.2]	[359.9, 17.0, 0]	-	Removal	3+ windows	Delete the second window from the right.
+16	Instructions	School	[-1272.9, 1204.1, 488.7]	[1.1, 191.0, 0]	-	Removal	3+ walls (1 blue)	Remove the blue wall.
+18	Instructions	School	[1057.0, 319.7, 926.4]	[337.1, 280.8, 0]	-	Removal, Transformation	2 doors	Remove the left door and rotate the other door 90 degrees clockwise.
+20	Instructions	School	[3260.0, 1109.6, 166.1]	[0.9, 193.1, 0]	l.set_object_visibility('0OCjL9Oi14tu4iiPw9P_V6', False)	Removal, Visibility	2 windows (1 hidden)	Delete the visible window and show the other one.
+22	Instructions	School	[1472.8, 2019.5, 663.3]	[5.0, 354.5, 0]	-	Coloring	2+ walls	Paint all walls black.
+24	Instructions	School	[-253.5, 304.2, 494.2]	[354.8, 0.1, 0]	-	Coloring	2 stairs (1 top)	Set the top stairs to orange.
+26	Instructions	School	[1088.2, -1436.2, 95.2]	[57.5, 131.3, 0]	-	Coloring	2+ beams (even qty.)	Make half of the beams green and the other half blue.
+28	Instructions	School	[-6.2, 321.3, 194.3]	[345.2, 275.3, 0]	-	Coloring, Camera	2 doors	Set the right door to purple, and move 2 meters closer to it.
+30	Instructions	School	[-1904.7, 2772.7, 959.5]	[359.4, 245.8, 0]	-	Coloring, Removal	1 wall + anything	Paint the wall pink, and remove any other object in sight.
+32	Instructions	School	[2270.1, 2275.9, 485.0]	[14.4, 359.0, 0]	-	Transformation	2+ walls	Reduce the height of all walls by half.
+34	Instructions	School	[-2185.1, 95.3, 472.1]	[0.0, 301.9, 0]	-	Transformation	2 stairs	Move the stairs below to the position of the stairs above.
+36	Instructions	School	[2597.0, 1940.1, 612.5]	[338.5, 347.5, 0]	-	Transformation	1 window	Make the window twice as small.
+38	Instructions	School	[582.9, -368.3, 168.4]	[356.7, 196.0, 0]	l.set_object_visibility('2UMN_OQKrAshZl3dHPulEv', False)	Transformation, Visibility	2 doors (1 hidden)	Rotate the visible door 90 degrees counter clockwise and show the hidden one.
+40	Instructions	School	[2631.3, 2620.6, 610.5]	[293.2, 335.4, 0]	l.set_object_color('0cT0BEfkn28eNHyAYTWp2W', 150, 75, 0)	Transformation, Coloring	2 stairs (1 brown)	Move the brown stairs 2 meters towards me and paint them black.
+42	Instructions	School	[275.4, 2758.0, 630.2]	[355.8, 270.1, 0]	-	Camera	-	Tilt the camera 90 degrees clockwise, keeping the center of the view fixed.
+44	Instructions	School	[54.1, 998.3, 140.2]	[0.4, 270.5, 0]	-	Camera	-	Move sideways 4 meters to the left.
+46	Instructions	School	[858.6, 841.2, 533.6]	[358.5, 270.6, 0]	-	Camera	1 window	Move to the other side of the window and look back at it.
+48	Instructions	School	[-1300.9, 3136.8, 501.9]	[352.2, 190.4, 0]	-	Camera, Removal	1 door	Remove the door in front of me and enter the room inside.
+50	Instructions	School	[2430.1, 2530.2, 878.3]	[346.6, 36.4, 0]	-	Camera, Transformation	2 stairs (1 left)	Look at the stairs on the left and rotate them 1 radian around the vertical axis.
+52	Props	School	[-2028.2, 427.6, 856.0]	[0.6, 216.9, 0]	-	Addition	2+ walls	Load a sofa next to the wall to my right.
+54	Props	School	[-1594.4, 1746.2, 173.1]	[348.6, 174.8, 0]	-	Addition	-	Add two toy cars and a plant between them.
+56	Props	School	[1416.9, -744.6, 113.4]	[355.4, 171.9, 0]	-	Addition	-	Add four poufs next to each other, forming a square.
+58	Props	School	[2542.4, 461.3, 136.8]	[356.9, 75.5, 0]	-	Addition	-	Load a boom box and a lamp mounted to the wall above it.
+60	Props	School	[-212.5, 776.2, 249.8]	[331.6, 112.7, 0]	-	Addition	-	Add two toy cars on the floor looking at opposite directions.
